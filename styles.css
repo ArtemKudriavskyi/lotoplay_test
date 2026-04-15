@@ -234,7 +234,10 @@ body.modal-open{
     display: block;
     width: 100%;
   }
-
+  .concerts-table td{
+    font-size: 13px;
+   
+  }
   .concerts-table tr {
     margin-bottom: 15px;
     background: #0f1623;
