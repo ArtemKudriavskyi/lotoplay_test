@@ -58,9 +58,11 @@
           <h2 id="modal-title">Замовлення квитка</h2>
           <p>Місто: <span id="popupCity"></span></p>
           <form class="order-form">
-            <input type="text" placeholder="Ім'я" required />
-            <input type="email" placeholder="Email" required />
-            <button type="submit">Відправити</button>
+            <div class="order-form-row">
+              <input name="name" class="input" type="text" placeholder="Ім'я" required />
+              <input name="email" class="input" type="email" placeholder="Email" required />
+            </div>
+            <button class="btn-main" type="submit">Відправити</button>
             <div class="form-success2">
               <p>Дякуємо за звернення!</p>
             </div>

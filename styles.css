@@ -201,6 +201,23 @@ a {
   font-weight: 500;
   font-size: 20px;
 }
+.form-success2{
+  display: none;
+  color:rgb(255, 204, 0);
+}
+.order-form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.order-form-row input{
+  width: 50%;
+  background-color: #384662;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
 
 .modal-close{
   position:absolute;
